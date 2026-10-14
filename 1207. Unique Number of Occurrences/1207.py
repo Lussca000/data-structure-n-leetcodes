@@ -1,7 +1,7 @@
 class Solution:
-    def uniqueOccurrences(self, arr: list[int]) -> bool:
-        count = {}
+    def uniqueocorrencias(self, arr: list[int]) -> bool:
+        contador = {}
         for num in arr:
-            count[num] = count.get(num, 0) + 1
-        occurrences = set(count.values())
-        return len(occurrences) == len(count)
+            contador[num] = contador.get(num, 0) + 1
+        ocorrencias = set(contador.values())
+        return len(ocorrencias) == len(contador)
