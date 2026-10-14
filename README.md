@@ -1,4 +1,7 @@
 ## comandos git pra lembrar sempre
+
+## todo dia fazendo um leetcode aleatório pra aprender e consequentemente deixar o github movimentado.]
+
 git add .
 git commit -m ""         
 git branch -M main
